@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60fb9810-221c-402c-a204-83763abb1ba4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EntityTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EnumTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EntityTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/NGO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EnumTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/TypeNGO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ExamenScrumApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/configuration/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/configuration/LoggingAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/ExamRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Acte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/FamilleActe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Pathologie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/TypePieceIdentite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/ActeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/FamilleActeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/PathologieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/PatientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/ExamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/IExamService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/examenScrum-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/examenScrum-1.0.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
@@ -53,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/4ème_GL_ESPRIT/Spring/TemplateExamen/ExamenScrum",
+    "last_opened_file_path": "D:/4ème_GL_ESPRIT/PIDEV/CampusConnect",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +93,7 @@
       <recent name="tn.esprit.services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4ème_GL_ESPRIT\PIDEV\CampusConnect\src\main\java\tn\esprit\repositories" />
       <recent name="D:\4ème_GL_ESPRIT\Spring\Document Autorisé\ExamenScrum - Copie\src\main\java\tn\esprit\services" />
       <recent name="C:\Work\workspace-intellij\achat\src\main\java\tn\esprit\rh\achat" />
       <recent name="C:\Work\workspace-intellij\achat\src\main\java\tn\esprit\rh\achat\util" />
@@ -193,18 +211,75 @@
       <workItem from="1676380837421" duration="978000" />
       <workItem from="1676383398348" duration="3659000" />
       <workItem from="1676533975861" duration="2613000" />
+      <workItem from="1676538695855" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Cyrine" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
