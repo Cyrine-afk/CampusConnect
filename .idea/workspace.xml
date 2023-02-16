@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60fb9810-221c-402c-a204-83763abb1ba4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EntityTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EnumTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/examenScrum-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/examenScrum-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FWq5ljwiz2FXl7ctkvGMemwbPA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/4ème_GL_ESPRIT/Spring/TemplateExamen/ExamenScrum",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "da28c9b6fee71ab4e07ee3868df1fc8d"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tn.esprit.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4ème_GL_ESPRIT\Spring\Document Autorisé\ExamenScrum - Copie\src\main\java\tn\esprit\services" />
+      <recent name="C:\Work\workspace-intellij\achat\src\main\java\tn\esprit\rh\achat" />
+      <recent name="C:\Work\workspace-intellij\achat\src\main\java\tn\esprit\rh\achat\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tn.esprit.entities" />
+      <recent name="tn.esprit.services" />
+      <recent name="tn.esprit.repositories" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn dependency:resolve" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExamenScrumApplication">
+    <configuration name="ProduitServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CampusConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.services.produit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat.services.produit" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.services.produit.ProduitServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CampusConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.StockServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceImplTest.testRetrieveOneStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CampusConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tn.esprit.rh.achat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.StockServiceImplTest" />
+      <option name="METHOD_NAME" value="testRetrieveOneStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamenScrumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CampusConnect" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.CampusConnectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StockServiceImplTest" />
+        <item itemvalue="JUnit.StockServiceImplTest.testRetrieveOneStock" />
+        <item itemvalue="JUnit.ProduitServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60fb9810-221c-402c-a204-83763abb1ba4" name="Changes" comment="" />
+      <created>1664618009524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664618009524</updated>
+      <workItem from="1664618011646" duration="3001000" />
+      <workItem from="1665306998745" duration="2646000" />
+      <workItem from="1665393194304" duration="7997000" />
+      <workItem from="1665478526137" duration="1352000" />
+      <workItem from="1665496882546" duration="598000" />
+      <workItem from="1666171227301" duration="642000" />
+      <workItem from="1666335246060" duration="5818000" />
+      <workItem from="1666355523745" duration="4545000" />
+      <workItem from="1666440864728" duration="13000" />
+      <workItem from="1666688895891" duration="47000" />
+      <workItem from="1671006805904" duration="5225000" />
+      <workItem from="1671012061630" duration="1035000" />
+      <workItem from="1671039261919" duration="1606000" />
+      <workItem from="1671092191065" duration="10931000" />
+      <workItem from="1671522137127" duration="1298000" />
+      <workItem from="1671611904475" duration="1806000" />
+      <workItem from="1672781968210" duration="2391000" />
+      <workItem from="1672795019499" duration="31000" />
+      <workItem from="1672818731802" duration="7729000" />
+      <workItem from="1676366068048" duration="1575000" />
+      <workItem from="1676369475817" duration="613000" />
+      <workItem from="1676380837421" duration="978000" />
+      <workItem from="1676383398348" duration="3659000" />
+      <workItem from="1676533975861" duration="2613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
