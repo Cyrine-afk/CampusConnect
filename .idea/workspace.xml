@@ -112,6 +112,7 @@
       <recent name="C:\Work\workspace-intellij\achat\src\main\java\tn\esprit\rh\achat\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tn.esprit.controllers" />
       <recent name="tn.esprit.services" />
       <recent name="tn.esprit.repositories" />
       <recent name="tn.esprit.entities" />
@@ -224,7 +225,7 @@
       <workItem from="1676380837421" duration="978000" />
       <workItem from="1676383398348" duration="3659000" />
       <workItem from="1676533975861" duration="2613000" />
-      <workItem from="1676538695855" duration="6299000" />
+      <workItem from="1676538695855" duration="11026000" />
     </task>
     <servers />
   </component>
@@ -253,7 +254,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/Cyrine" />
                       </list>
                     </value>
                   </entry>

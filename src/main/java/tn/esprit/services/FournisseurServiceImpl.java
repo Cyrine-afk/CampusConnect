@@ -14,7 +14,7 @@ import java.util.List;
 public class FournisseurServiceImpl implements IFournisseurService {
     FournisseurRepository fournisseurRepo;
 
-    /*@Override
+    @Override
     public List<Fournisseur> ListFournisseurs(){
         return fournisseurRepo.findAll();
     }
@@ -22,38 +22,32 @@ public class FournisseurServiceImpl implements IFournisseurService {
     @Override
     public Fournisseur ajouterFournisseur(Fournisseur fourn) {
         return fournisseurRepo.save(fourn);
-    }*/
+    }
 
-    /*public Reclamation ajouterReclamation(Reclamation r) {
-        return reclamationRepository.save(r);
+    @Override
+    public void supprimerFournisseur(Integer idFourn) {
+        Fournisseur r = fournisseurRepo.findById(idFourn).orElse(null);
+
+        fournisseurRepo.delete(r);
+    }
+
+    @Override
+    public void updateFournisseur(Fournisseur fournisseur, Integer idFourn) {
+
+        Fournisseur rec= fournisseurRepo.findById(idFourn).orElse(null);
+
+        rec.setIdFourn(idFourn);
+        rec.setSpecialty(fournisseur.getSpecialty());
+        rec.setAdrFourn(fournisseur.getAdrFourn());
+        rec.setNomFourn(fournisseur.getNomFourn());
+        rec.setTelFourn(fournisseur.getTelFourn());
+        rec.setMatriculeFourn(fournisseur.getMatriculeFourn());
+        fournisseurRepo.save(rec);
 
     }
 
-    public List<Reclamation> ListReclamations(){
-        return reclamationRepository.findAll();
+    @Override
+    public Fournisseur getFournisseurById(Integer idFourn) {
+        return fournisseurRepo.getById(idFourn);
     }
-
-
-    public void supprimerReclamation(Long idReclamation) {
-        Reclamation r = reclamationRepository.findById(idReclamation).orElse(null);
-
-        reclamationRepository.delete(r);
-    }
-
-    public void updateReclamation(Reclamation reclamation, Long idReclamation) {
-
-        Reclamation rec= reclamationRepository.findById(idReclamation).orElse(null);
-
-        rec.setIdRec(idReclamation);
-        rec.setContenuRec(reclamation.getContenuRec());
-        rec.setType(reclamation.getType());
-        rec.setSendingDate(reclamation.getSendingDate());
-        reclamationRepository.save(rec);
-
-    }
-
-
-    public Reclamation getReclamationById(Long idReclamation) {
-        return reclamationRepository.getById(idReclamation);
-    }*/
 }

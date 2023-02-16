@@ -3,7 +3,6 @@ package tn.esprit.services;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import tn.esprit.entities.NGO;
 import tn.esprit.entities.Stock;
 import tn.esprit.repositories.StockRepository;
 
@@ -15,41 +14,43 @@ import java.util.List;
 public class StockServiceImpl implements IStockService {
     StockRepository stockRepo;
 
-    /*@Override
+    @Override
     public Stock ajouterStock(Stock st) {
         return stockRepo.save(st);
     }
 
     @Override
-    public List<NGO> ListNGOs(){
-        return ngoRepo.findAll();
+    public List<Stock> ListStocks(){
+        return stockRepo.findAll();
     }
 
     @Override
-    public void supprimerNGO(Integer idNgo) {
-        NGO r = ngoRepo.findById(idNgo).orElse(null);
+    public void supprimerStock(Integer idStock) {
+        Stock r = stockRepo.findById(idStock).orElse(null);
 
-        ngoRepo.delete(r);
+        stockRepo.delete(r);
     }
 
     @Override
-    public void updateNGO(NGO ng, Integer idNgo) {
+    public void updateStock(Stock ng, Integer idStock) {
 
-        NGO rec= ngoRepo.findById(idNgo).orElse(null);
+        Stock rec= stockRepo.findById(idStock).orElse(null);
 
-        rec.setIdNGO(idNgo);
-        rec.setNomNGO(ng.getNomNGO());
-        rec.setType(ng.getType());
-        rec.setDescrNGO(ng.getDescrNGO());
-        rec.setNumTelNGO(ng.getNumTelNGO());
-        rec.setLogoNGO(ng.getLogoNGO());
-        rec.setDescrNGO(ng.getDescrNGO());
-        ngoRepo.save(rec);
+        rec.setIdIngr(ng.getIdIngr());
+        //rec.setFournisseur(ng.getFournisseur());
+        rec.setCodeIngr(ng.getCodeIngr());
+        rec.setDateAjout(ng.getDateAjout());
+        rec.setDateExpiration(ng.getDateExpiration());
+        rec.setNomIngr(ng.getNomIngr());
+        rec.setPrixUnitaireIngr(ng.getPrixUnitaireIngr());
+        rec.setQttIngr(ng.getQttIngr());
+        rec.setUniteIngr(ng.getUniteIngr());
+        stockRepo.save(rec);
 
     }
 
     @Override
-    public NGO getNGOById(Integer idNgo) {
-        return ngoRepo.getById(idNgo);
-    }*/
+    public Stock getStockById(Integer idStock) {
+        return stockRepo.getById(idStock);
+    }
 }
