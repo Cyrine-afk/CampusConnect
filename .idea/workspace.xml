@@ -9,7 +9,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EntityTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/NGO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EnumTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/TypeNGO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/FournisseurRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/EntityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IFournisseurService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ExamenScrumApplication.class" beforeDir="false" />
@@ -99,9 +101,9 @@
       <recent name="C:\Work\workspace-intellij\achat\src\main\java\tn\esprit\rh\achat\util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tn.esprit.entities" />
       <recent name="tn.esprit.services" />
       <recent name="tn.esprit.repositories" />
+      <recent name="tn.esprit.entities" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -211,7 +213,7 @@
       <workItem from="1676380837421" duration="978000" />
       <workItem from="1676383398348" duration="3659000" />
       <workItem from="1676533975861" duration="2613000" />
-      <workItem from="1676538695855" duration="58000" />
+      <workItem from="1676538695855" duration="1363000" />
     </task>
     <servers />
   </component>
