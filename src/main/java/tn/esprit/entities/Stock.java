@@ -1,5 +1,6 @@
 package tn.esprit.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -33,5 +34,7 @@ public class Stock implements Serializable {
 	private float qttSurplus;
 	private String uniteIngr;
 
-
+	@ManyToOne
+	@JsonIgnore
+	private Fournisseur fournisseur;
 }

@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -27,8 +28,9 @@ public class Fournisseur implements Serializable {
 	@Enumerated(EnumType.STRING)
 	private SpecialtyFourn specialty;
 
-	@ManyToOne
+
+	@OneToMany
 	@JsonIgnore
-	private Stock stocks;
+	private Set<Stock> stocks;
 
 }
