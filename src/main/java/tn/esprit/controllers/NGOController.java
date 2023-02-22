@@ -13,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 public class NGOController {
     @Autowired
+    //NGOServiceImpl ngoService;
     NGOServiceImpl ngoService;
 
 
@@ -44,6 +45,7 @@ public class NGOController {
     @GetMapping("/getNGO/{idNGO}")
     @ResponseBody
     public NGO getNGOByiD(@PathVariable("idNgo") Integer idNgo){
+        //return ngoService.getNGOById(idNgo);
         return ngoService.getNGOById(idNgo);
     }
 }

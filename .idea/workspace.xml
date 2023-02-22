@@ -6,41 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60fb9810-221c-402c-a204-83763abb1ba4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/EntityRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/EnumTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/TypeNGO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Fournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Fournisseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/FournisseurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/FournisseurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/NGORepositoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/NGORepositoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/StockRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IFournisseurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IFournisseurService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/INGOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/INGOService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/NGOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/NGOServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/StockServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ExamenScrumApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/configuration/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/configuration/LoggingAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/ExamRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Acte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/FamilleActe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Pathologie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/TypePieceIdentite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/ActeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/FamilleActeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/PathologieRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/PatientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/ExamServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/IExamService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/examenScrum-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/examenScrum-1.0.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/NGOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/NGOController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,33 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/4ème_GL_ESPRIT/PIDEV/CampusConnect",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "da28c9b6fee71ab4e07ee3868df1fc8d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4ème_GL_ESPRIT/PIDEV/CampusConnect&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;da28c9b6fee71ab4e07ee3868df1fc8d&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tn.esprit.services" />
@@ -226,6 +193,8 @@
       <workItem from="1676383398348" duration="3659000" />
       <workItem from="1676533975861" duration="2613000" />
       <workItem from="1676538695855" duration="11026000" />
+      <workItem from="1676556566758" duration="273000" />
+      <workItem from="1676665680263" duration="1190000" />
     </task>
     <servers />
   </component>
