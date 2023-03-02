@@ -29,10 +29,13 @@ public class Revenus implements Serializable  {
 	private Long idRevenue; 
 	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	private float scolariteEtud;
 	
 	private float abonnementRestaurant;
 =======
+=======
+>>>>>>> Stashed changes
 	private float prixInscription = 7300;
 	
 	private float scolariteEtud;
@@ -40,17 +43,26 @@ public class Revenus implements Serializable  {
 	
 	private float abonnementRestaurant;
 	
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	private float abonnementFoyer;
 	
 	private float projets;
 	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 =======
+=======
+>>>>>>> Stashed changes
 	
 }
 
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

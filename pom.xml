@@ -30,21 +30,30 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	
 =======
+=======
+>>>>>>> Stashed changes
 
 		<dependency>
     <groupId>com.itextpdf</groupId>
     <artifactId>itextpdf</artifactId>
     <version>5.0.6</version>
 </dependency>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		
 		
 		<dependency>
@@ -56,6 +65,9 @@
 			<artifactId>javax.mail</artifactId>
 			<version>1.6.2</version>
 		</dependency>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		<dependency>
     <groupId>org.springframework.boot</groupId>

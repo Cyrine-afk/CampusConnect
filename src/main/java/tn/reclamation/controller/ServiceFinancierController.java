@@ -1,6 +1,10 @@
 package tn.reclamation.controller;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+import java.util.Date;
+>>>>>>> Stashed changes
 =======
 import java.util.Date;
 >>>>>>> Stashed changes
@@ -61,15 +65,21 @@ public class ServiceFinancierController {
 	
 	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	@GetMapping("/getEtatFinance")
 	@ResponseBody
 	public float  getEtatFinance(){
 		return serviceFinancierService.EtatFinance();
 =======
+=======
+>>>>>>> Stashed changes
 	@PutMapping("/getEtatFinance")
 	@ResponseBody
 	public float getEtatFinance( ){
 		return serviceFinancierService.EtatFinanceByYear();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 }

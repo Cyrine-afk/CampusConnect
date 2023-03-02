@@ -30,15 +30,21 @@ public class ServiceFinancier {
 	
 	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	private float consommationF;
 	private float depensesF;
 =======
+=======
+>>>>>>> Stashed changes
 	
 	private float TotaleDepenses;
 	
 
 	
 	private float TotaleRevenues;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	
 	

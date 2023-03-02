@@ -1,6 +1,7 @@
 package tn.reclamation.service;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,8 @@ import tn.reclamation.repository.DepenseRepository;
 import tn.reclamation.repository.RevenueRepository;
 import tn.reclamation.repository.ServiceFinancierRepository;
 =======
+=======
+>>>>>>> Stashed changes
 import java.util.Date;
 import java.util.List;
 
@@ -23,11 +26,22 @@ import org.springframework.stereotype.Service;
 
 import tn.reclamation.entities.Depenses;
 import tn.reclamation.entities.Prixinscriptions;
+<<<<<<< Updated upstream
+=======
+import tn.reclamation.entities.Projet;
+>>>>>>> Stashed changes
 import tn.reclamation.entities.Revenus;
 import tn.reclamation.entities.ServiceFinancier;
 import tn.reclamation.entities.User;
 import tn.reclamation.repository.DepenseRepository;
 import tn.reclamation.repository.PrixinscriptionsRepository;
+<<<<<<< Updated upstream
+import tn.reclamation.repository.RevenueRepository;
+import tn.reclamation.repository.ServiceFinancierRepository;
+import tn.reclamation.repository.UserRepository;
+>>>>>>> Stashed changes
+=======
+import tn.reclamation.repository.ProjetRepository;
 import tn.reclamation.repository.RevenueRepository;
 import tn.reclamation.repository.ServiceFinancierRepository;
 import tn.reclamation.repository.UserRepository;
@@ -43,11 +57,20 @@ DepenseRepository depenseRepo;
 RevenueRepository revenuRepo;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+@Autowired
+ProjetRepository projetRepo;
+
+>>>>>>> Stashed changes
 @Autowired
 UserRepository userRepo;
 @Autowired
 PrixinscriptionsRepository prixRepository;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 	public ServiceFinancier ajouterServiceFinancier(ServiceFinancier r) {
@@ -72,8 +95,13 @@ PrixinscriptionsRepository prixRepository;
 		
 		sf.setIdF(idServiceFinancier);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		sf.setDepensesF(serviceFinancier.getDepensesF());
 		sf.setConsommationF(serviceFinancier.getConsommationF());
+=======
+		sf.setTotaleDepenses(serviceFinancier.getTotaleDepenses());
+		sf.setTotaleRevenues(serviceFinancier.getTotaleRevenues());
+>>>>>>> Stashed changes
 =======
 		sf.setTotaleDepenses(serviceFinancier.getTotaleDepenses());
 		sf.setTotaleRevenues(serviceFinancier.getTotaleRevenues());
@@ -87,6 +115,7 @@ PrixinscriptionsRepository prixRepository;
 		return serviceFinancierRepository.findById(idServiceFinancier).orElse(null);	
 	}
 	
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	public float EtatFinance() {
 		
@@ -108,16 +137,26 @@ PrixinscriptionsRepository prixRepository;
 	
 	
 =======
+=======
+>>>>>>> Stashed changes
 	public float EtatFinanceByYear() {
 		Date currentSqlDate = new Date(System.currentTimeMillis());
 		List<Depenses> listdepenses = depenseRepo.findAll();
 		float sommeDepense=0;
 		float sommeRevenus=0;
+<<<<<<< Updated upstream
 	
+=======
+		float sommeprojets=0;
+>>>>>>> Stashed changes
 		int nbrAbonnéRestau=0;
 		int nbrAbonnéFoyer=0;
 		List<User> listuser = userRepo.findAll();
 		List<Prixinscriptions> prixinscriptions = prixRepository.findAll();
+<<<<<<< Updated upstream
+=======
+		List<Projet> projets = projetRepo.findAll();
+>>>>>>> Stashed changes
 		
 		Prixinscriptions prix = new Prixinscriptions();
 		
@@ -126,8 +165,16 @@ PrixinscriptionsRepository prixRepository;
 				prix = p;
 			}
 		}
+<<<<<<< Updated upstream
 
 		
+=======
+		for (Projet p : projets) {
+			sommeprojets+= p.getPrixProjet();
+			
+			}
+		System.out.println("/////////"+sommeprojets);
+>>>>>>> Stashed changes
 		for (User u : listuser) {
 			if(u.getAbonneRestaurant().booleanValue()) {
 				nbrAbonnéRestau++;
@@ -137,7 +184,11 @@ PrixinscriptionsRepository prixRepository;
 			}
 		}
 			sommeRevenus+=listuser.size()*prix.getPrixScolarité()+nbrAbonnéFoyer*prix.getPrixAbonnementFoyer()+
+<<<<<<< Updated upstream
 					nbrAbonnéRestau*prix.getPrixAbonnementRestaurant();
+=======
+					nbrAbonnéRestau*prix.getPrixAbonnementRestaurant() + sommeprojets;
+>>>>>>> Stashed changes
 	
 		for(Depenses d :listdepenses) {
 			sommeDepense+= d.getConsommationeau()+d.getConsommationelectricite()+d.getMaintenanceRestaurant()+d.getSalaireProf();
@@ -146,13 +197,19 @@ PrixinscriptionsRepository prixRepository;
 	
 	return sommeRevenus-sommeDepense;
 	
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 	
 	
 	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 	
 	@Scheduled(fixedRate = 1000)
 	//@Scheduled(cron = "* * * * */12 *")
@@ -177,5 +234,8 @@ PrixinscriptionsRepository prixRepository;
 
 	
 	
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

@@ -1,7 +1,10 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 tn\food\AntiGaspillageFoodApplication.class
 tn\food\config\SwaggerConfig.class
 =======
+=======
+>>>>>>> Stashed changes
 tn\reclamation\service\ResponseService.class
 tn\reclamation\repository\RevenueRepository.class
 tn\reclamation\ReclamationApplication.class
@@ -28,4 +31,7 @@ tn\reclamation\service\PrixInscriptionsRepository.class
 tn\reclamation\repository\DictionnaireRepository.class
 tn\reclamation\repository\ReclamationRepository.class
 tn\reclamation\repository\ResponseRepository.class
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

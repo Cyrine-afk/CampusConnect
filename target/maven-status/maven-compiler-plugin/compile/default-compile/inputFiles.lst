@@ -1,7 +1,10 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\food\AntiGaspillageFoodApplication.java
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\food\config\SwaggerConfig.java
 =======
+=======
+>>>>>>> Stashed changes
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\DictionnaireBadWords.java
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\controller\DepensesController.java
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\User.java
@@ -34,4 +37,7 @@ C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\rec
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Revenus.java
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\ServiceFinancierRepository.java
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\RevenueService.java
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

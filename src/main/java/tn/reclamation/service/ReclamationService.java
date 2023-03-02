@@ -4,12 +4,15 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import tn.reclamation.entities.Reclamation;
 =======
+=======
+>>>>>>> Stashed changes
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -19,6 +22,9 @@ import org.springframework.stereotype.Service;
 import tn.reclamation.entities.DictionnaireBadWords;
 import tn.reclamation.entities.Reclamation;
 import tn.reclamation.repository.DictionnaireRepository;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 import tn.reclamation.repository.ReclamationRepository;
 
@@ -26,6 +32,7 @@ import tn.reclamation.repository.ReclamationRepository;
 public class ReclamationService {
 @Autowired
 ReclamationRepository reclamationRepository;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 
@@ -36,6 +43,8 @@ public Reclamation ajouterReclamation(Reclamation r) {
 }
 
 =======
+=======
+>>>>>>> Stashed changes
 @Autowired
 DictionnaireRepository badwordsRepo;
 @Autowired
@@ -87,6 +96,9 @@ public int verif(Reclamation c) {
 	return 2;
 
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 public List<Reclamation> ListReclamations(){
 	return reclamationRepository.findAll();
@@ -150,7 +162,10 @@ int nombre = 0;
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
 //@Schedulet mta3 l3am
 // mta3 draj
@@ -159,6 +174,9 @@ public void afficherMessage() {
 	// nvprix =prixInscriptionCetteAnnee + prixInscriptionCetteAnnee*0.05;
 }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	
 }

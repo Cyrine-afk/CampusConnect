@@ -9,6 +9,11 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+>>>>>>> Stashed changes
 =======
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -38,6 +43,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -56,12 +65,15 @@ public class User implements Serializable {
 	@DateTimeFormat(pattern = "yyy-MM-dd")
 	private Date dateNaissance;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	
 	
 	private String numTel ;
 	private String adresse;
 	
 =======
+=======
+>>>>>>> Stashed changes
 
 
 	private String numTel ;
@@ -69,6 +81,9 @@ public class User implements Serializable {
 	
 	private Boolean abonneRestaurant;
 	private Boolean abonneFoyer;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 	@JsonIgnore
