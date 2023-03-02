@@ -1,2 +1,37 @@
+<<<<<<< Updated upstream
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\food\AntiGaspillageFoodApplication.java
 C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\food\config\SwaggerConfig.java
+=======
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\DictionnaireBadWords.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\controller\DepensesController.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\User.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\ProjetRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\ResponseService.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Reclamation.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Response.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\controller\ServiceFinancierController.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\PrixInscriptionsRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Depenses.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\RevenueRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\DepenseService.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\reclamationType.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\ServiceFinancier.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Projet.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\PrixInscriptions.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\controller\ReclamationController.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\controller\RevenueController.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\config\SwaggerConfig.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\UserRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Restaurant.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\ReclamationApplication.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\ResponseRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\ServiceFinancierService.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\DictionnaireRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\controller\ResponseController.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\ReclamationRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\ReclamationService.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\DepenseRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\entities\Revenus.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\repository\ServiceFinancierRepository.java
+C:\Users\Administrateur.DESKTOP-BMBSNE9\Desktop\Reclamation\src\main\java\tn\reclamation\service\RevenueService.java
+>>>>>>> Stashed changes

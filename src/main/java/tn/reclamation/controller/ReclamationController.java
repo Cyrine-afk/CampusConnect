@@ -26,9 +26,15 @@ ReclamationService reclamationService;
 
 @PostMapping("/add-reclamation")
 @ResponseBody
+<<<<<<< Updated upstream
 public Reclamation addReclamation(@RequestBody Reclamation r)
 {
 	return  reclamationService.ajouterReclamation(r);
+=======
+public void addReclamation(@RequestBody Reclamation r)
+{
+	  reclamationService.ajouterReclamation(r);
+>>>>>>> Stashed changes
 
 }
 

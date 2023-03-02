@@ -72,5 +72,11 @@ public class Reclamation implements Serializable {
 	
 	
 	
+<<<<<<< Updated upstream
+=======
+	
+	
+	
+>>>>>>> Stashed changes
 
 }

@@ -1,6 +1,5 @@
 package tn.reclamation.entities;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -22,35 +21,20 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Revenus implements Serializable  {
+public class Projet {
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private Long idRevenue; 
+
+	private Long idProjet; 
 	
-<<<<<<< Updated upstream
-	private float scolariteEtud;
+	private float prixProjet;
 	
-	private float abonnementRestaurant;
-=======
-	private float prixInscription = 7300;
-	
-	private float scolariteEtud;
+	private String name;
+	private String technologies ;
+	private String classe; 
 	
 	
-	private float abonnementRestaurant;
 	
->>>>>>> Stashed changes
-	private float abonnementFoyer;
-	
-	private float projets;
-	
-<<<<<<< Updated upstream
+
 }
-=======
-	
-}
-
-
-
->>>>>>> Stashed changes

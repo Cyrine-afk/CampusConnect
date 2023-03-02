@@ -3,17 +3,30 @@ package tn.reclamation.service;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+<<<<<<< Updated upstream
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import tn.reclamation.entities.Reclamation;
+=======
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import tn.reclamation.entities.DictionnaireBadWords;
+import tn.reclamation.entities.Reclamation;
+import tn.reclamation.repository.DictionnaireRepository;
+>>>>>>> Stashed changes
 import tn.reclamation.repository.ReclamationRepository;
 
 @Service
 public class ReclamationService {
 @Autowired
 ReclamationRepository reclamationRepository;
+<<<<<<< Updated upstream
 
 
 public Reclamation ajouterReclamation(Reclamation r) {
@@ -22,6 +35,59 @@ public Reclamation ajouterReclamation(Reclamation r) {
 	
 }
 
+=======
+@Autowired
+DictionnaireRepository badwordsRepo;
+@Autowired
+JavaMailSender javaMailSender;
+
+public void ajouterReclamation(Reclamation r) {
+	List<String> badwords1 = new ArrayList<String>();
+	List<DictionnaireBadWords> badwords = badwordsRepo.findAll();
+	for (DictionnaireBadWords bd : badwords) {
+		badwords1.add(bd.getWord());
+	}
+	
+	
+	if (verif(r) == 1) {
+		
+	
+	r.setEtat("non traitée");
+	 reclamationRepository.save(r);
+	}
+	else if(verif(r) == 0) {
+		r.setContenuRec("*******");
+		
+		r.setEtat("non traitée");
+		 reclamationRepository.save(r);
+			SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
+			simpleMailMessage.setFrom("schoolesprit1@gmail.com");
+			//simpleMailMessage.setTo(r.getUser().getEmailUser());
+
+			simpleMailMessage.setTo("hajer.moumni@esprit.tn");
+			simpleMailMessage.setSubject("This is an alert, you have sent a bad word");
+			simpleMailMessage.setText("This is an alert, you have sent a bad word, if you keep sending bad words, you might get banned");
+			javaMailSender.send(simpleMailMessage);
+	}
+
+	
+}
+public int verif(Reclamation c) {
+
+	for (DictionnaireBadWords d : badwordsRepo.findAll()) {
+
+		if (c.getContenuRec().toLowerCase().contains(d.getWord().toLowerCase()) || c.getContenuRec() == null
+				|| c.getContenuRec().length() == 0) {
+			return 0;
+		} else {
+			return 1;
+		}
+
+	}
+	return 2;
+
+}
+>>>>>>> Stashed changes
 public List<Reclamation> ListReclamations(){
 	return reclamationRepository.findAll();
 }
@@ -83,5 +149,16 @@ int nombre = 0;
 }
 
 
+<<<<<<< Updated upstream
+=======
+
+//@Schedulet mta3 l3am
+// mta3 draj
+@Scheduled(fixedRate = 10000)
+public void afficherMessage() {
+	// nvprix =prixInscriptionCetteAnnee + prixInscriptionCetteAnnee*0.05;
+}
+
+>>>>>>> Stashed changes
 	
 }

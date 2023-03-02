@@ -1,5 +1,9 @@
 package tn.reclamation.controller;
 
+<<<<<<< Updated upstream
+=======
+import java.util.Date;
+>>>>>>> Stashed changes
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,9 +60,16 @@ public class ServiceFinancierController {
 	}
 	
 	
+<<<<<<< Updated upstream
 	@GetMapping("/getEtatFinance")
 	@ResponseBody
 	public float  getEtatFinance(){
 		return serviceFinancierService.EtatFinance();
+=======
+	@PutMapping("/getEtatFinance")
+	@ResponseBody
+	public float getEtatFinance( ){
+		return serviceFinancierService.EtatFinanceByYear();
+>>>>>>> Stashed changes
 	}
 }

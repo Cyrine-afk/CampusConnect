@@ -1,9 +1,9 @@
 package tn.reclamation.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -21,26 +21,12 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ServiceFinancier {
+public class DictionnaireBadWords implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id
-	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	@Column(name="idF")  
-	private Long idF;
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
+	private Long id;
 	
 	
-<<<<<<< Updated upstream
-	private float consommationF;
-	private float depensesF;
-=======
-	
-	private float TotaleDepenses;
-	
-
-	
-	private float TotaleRevenues;
->>>>>>> Stashed changes
-	
-	
-	
+	 private String word;
 }

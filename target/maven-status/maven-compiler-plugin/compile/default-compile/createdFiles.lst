@@ -1,2 +1,31 @@
+<<<<<<< Updated upstream
 tn\food\AntiGaspillageFoodApplication.class
 tn\food\config\SwaggerConfig.class
+=======
+tn\reclamation\service\ResponseService.class
+tn\reclamation\repository\RevenueRepository.class
+tn\reclamation\ReclamationApplication.class
+tn\reclamation\controller\ResponseController.class
+tn\reclamation\service\ReclamationService.class
+tn\reclamation\entities\reclamationType.class
+tn\reclamation\service\DepenseService.class
+tn\reclamation\entities\DictionnaireBadWords.class
+tn\reclamation\entities\ServiceFinancier.class
+tn\reclamation\config\SwaggerConfig.class
+tn\reclamation\entities\Reclamation.class
+tn\reclamation\entities\Revenus.class
+tn\reclamation\repository\DepenseRepository.class
+tn\reclamation\repository\ServiceFinancierRepository.class
+tn\reclamation\controller\RevenueController.class
+tn\reclamation\service\RevenueService.class
+tn\reclamation\entities\Response.class
+tn\reclamation\controller\ServiceFinancierController.class
+tn\reclamation\controller\DepensesController.class
+tn\reclamation\entities\User.class
+tn\reclamation\service\ServiceFinancierService.class
+tn\reclamation\entities\Depenses.class
+tn\reclamation\service\PrixInscriptionsRepository.class
+tn\reclamation\repository\DictionnaireRepository.class
+tn\reclamation\repository\ReclamationRepository.class
+tn\reclamation\repository\ResponseRepository.class
+>>>>>>> Stashed changes
