@@ -1,4 +1,4 @@
-package tn.esprit.services;
+package tn.esprit.Interfaces;
 
 import tn.esprit.entities.Fournisseur;
 

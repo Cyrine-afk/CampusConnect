@@ -2,22 +2,43 @@ package tn.esprit.services;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import tn.esprit.Interfaces.IStockService;
+import tn.esprit.entities.Fournisseur;
 import tn.esprit.entities.Stock;
+import tn.esprit.entities.SurplusAlim;
+import tn.esprit.repositories.FournisseurRepository;
 import tn.esprit.repositories.StockRepository;
+import tn.esprit.repositories.SurplusRepository;
 
+import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 @Service
 @AllArgsConstructor
 @Slf4j
 public class StockServiceImpl implements IStockService {
+    SurplusRepository surplusRepository;
     StockRepository stockRepo;
+    FournisseurRepository fournRepo;
 
     @Override
-    public Stock ajouterStock(Stock st) {
+    public Stock ajouterStock(Stock st, int fournId) {
+        Fournisseur fourn = fournRepo.findById(fournId).orElse(null);
+        Date date = new Date(System.currentTimeMillis());
+        st.setDateAjoutIngr(date);
+        st.setFournisseur(fourn);
+        st.setQttSurplus(7);
         return stockRepo.save(st);
     }
+
+
 
     @Override
     public List<Stock> ListStocks(){
@@ -37,9 +58,8 @@ public class StockServiceImpl implements IStockService {
         Stock rec= stockRepo.findById(idStock).orElse(null);
 
         rec.setIdIngr(ng.getIdIngr());
-        //rec.setFournisseur(ng.getFournisseur());
         rec.setCodeIngr(ng.getCodeIngr());
-        rec.setDateAjout(ng.getDateAjout());
+        rec.setDateAjoutIngr(ng.getDateAjoutIngr());
         rec.setDateExpiration(ng.getDateExpiration());
         rec.setNomIngr(ng.getNomIngr());
         rec.setPrixUnitaireIngr(ng.getPrixUnitaireIngr());
@@ -49,8 +69,52 @@ public class StockServiceImpl implements IStockService {
 
     }
 
+
+    @Override
+    public void assignSurplusToStock(int surplusId, int stockId) {
+        SurplusAlim surplus = surplusRepository.findById(surplusId).orElse(null);
+        Stock stockk = stockRepo.findById(stockId).orElse(null);
+        stockk.setSurplusIngr(surplus);
+        stockRepo.save(stockk);
+        //userRepository.save(developer);
+    }
+
     @Override
     public Stock getStockById(Integer idStock) {
         return stockRepo.getById(idStock);
     }
+
+    //HERE
+    @Scheduled(fixedRate = 5000)
+    public void decrementExpiredStock() {
+        Date date = new Date(System.currentTimeMillis());
+        List<Stock> expiredStock = stockRepo.findStockByDateExpirationBefore(date);
+
+        expiredStock.forEach(stock -> stock.setQttIngr(0.00f));
+        stockRepo.saveAll(expiredStock);
+        System.out.println("Stock decremented");
+
+    }
+
+
+    @Override
+    public List<Stock> findStockWithSorting(String field) {
+        return  stockRepo.findAll(org.springframework.data.domain.Sort.by(org.springframework.data.domain.Sort.Direction.ASC,field));
+
+    }
+
+    @Override
+    public Page<Stock> findStockWithPagination(int offset, int pageSize) {
+        Page<Stock> posts = stockRepo.findAll(PageRequest.of(offset, pageSize));
+        return  posts;
+    }
+
+    @Override
+    public Page<Stock> findStockWithPaginationAndSorting(int offset, int pageSize, String field) {
+        Page<Stock> posts = stockRepo.findAll(PageRequest.of(offset, pageSize).withSort(org.springframework.data.domain.Sort.by(field)));
+        return  posts;
+    }
+
+
+
 }

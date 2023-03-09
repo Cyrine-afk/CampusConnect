@@ -3,6 +3,7 @@ package tn.esprit.controllers;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.entities.NGO;
 import tn.esprit.services.NGOServiceImpl;
@@ -47,5 +48,11 @@ public class NGOController {
     public NGO getNGOByiD(@PathVariable("idNgo") Integer idNgo){
         //return ngoService.getNGOById(idNgo);
         return ngoService.getNGOById(idNgo);
+    }
+
+    @GetMapping("/statNGO")
+    ResponseEntity<?> StatistiqueSelonTypeNGO()
+    {
+        return 	ngoService.StatistiqueSelonTypeNGO();
     }
 }

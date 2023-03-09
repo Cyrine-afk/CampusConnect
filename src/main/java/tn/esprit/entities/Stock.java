@@ -8,6 +8,8 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 @Entity
@@ -23,18 +25,26 @@ public class Stock implements Serializable {
 	private int idIngr;
 	private String codeIngr;
 	@Temporal(TemporalType.DATE)
-	private Date dateAjout;
+	private Date dateAjoutIngr;
 	@Temporal(TemporalType.DATE)
 	private Date dateExpiration;
 	@Temporal(TemporalType.DATE)
-	private Date dateDonation;
+	private Date dateFabrication;
 	private String nomIngr;
 	private float prixUnitaireIngr;
 	private float qttIngr;
 	private float qttSurplus;
 	private String uniteIngr;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JsonIgnore
-	private Fournisseur fournisseur;
+	Fournisseur fournisseur;
+
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "surplus_id", referencedColumnName = "idSurplus")
+	SurplusAlim surplusIngr;
+	/*@OneToOne(mappedBy = "stockIngr")
+	private SurplusAlim surplus;*/
+
+
 }

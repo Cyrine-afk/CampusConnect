@@ -6,8 +6,14 @@ import tn.esprit.entities.NGO;
 import tn.esprit.entities.Stock;
 
 import javax.persistence.criteria.CriteriaBuilder;
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.List;
 
 @Repository
 public interface StockRepository extends JpaRepository<Stock, Integer> {
 
+    //HERE
+    Date date = new Date(System.currentTimeMillis());
+    List<Stock> findStockByDateExpirationBefore(Date date);
 }

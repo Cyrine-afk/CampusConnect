@@ -6,7 +6,9 @@ import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
+import tn.esprit.services.StockServiceImpl;
 
 @Component
 @Aspect

@@ -1,6 +1,7 @@
 package tn.esprit.entities;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.*;
 
@@ -23,11 +24,11 @@ public class NGO implements Serializable {
 	private String numTelNGO;
 	private String descrNGO;
 	private String logoNGO;
+	private String emailNGO;
 	@Enumerated(EnumType.STRING)
-	private TypeNGO type;
+	TypeNGO type;
 
-	@ManyToMany
+	@OneToMany(mappedBy = "ngo")
 	@JsonIgnore
-	Set<Stock> surplus;
-
+	Set<Transaction_Surplus_NGO> transaction_surplus_ngo = new HashSet<Transaction_Surplus_NGO>();
 }
