@@ -13,6 +13,7 @@ import java.util.List;
 
 @Repository
 public interface TransactionSurplusNGORepository extends JpaRepository<Transaction_Surplus_NGO, Integer> {
+    //HERE
     @Query("select n.qttDonated from Transaction_Surplus_NGO n where n.surplusAlim.idSurplus=:id")
     float qttDon(int id);
 }

@@ -5,61 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60fb9810-221c-402c-a204-83763abb1ba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_sockjs_client_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_stomp_websocket_2_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3b607f0-fd01-4732-8863-5dfdafc5da98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a3b607f0-fd01-4732-8863-5dfdafc5da98.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_7_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CampusConnect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CampusConnect.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/CampusConnectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/configuration/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/configuration/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/FournisseurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/FournisseurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Fournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Fournisseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/NGO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/NGO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/entities/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/FournisseurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/FournisseurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/NGORepositoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/NGORepositoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/StockRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IFournisseurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Interfaces/IFournisseurService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/INGOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Interfaces/INGOService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Interfaces/IStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/NGOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/NGOServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/TransactionSurplusNGORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/repositories/TransactionSurplusNGORepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/StockServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/campusConnect-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/campusConnect-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/campusConnect-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/campusConnect-1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/CampusConnectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/CampusConnectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/configuration/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/configuration/LoggingAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/FournisseurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/FournisseurController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/NGOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/NGOController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/StockController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/StockController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Fournisseur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Fournisseur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/NGO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/entities/NGO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/entities/Stock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/FournisseurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/FournisseurRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/NGORepositoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/NGORepositoy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/StockRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/repositories/StockRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/FournisseurServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/services/FournisseurServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/IFournisseurService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/INGOService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/IStockService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/NGOServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/services/NGOServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/SurplusServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/SurplusServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/StockServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/services/StockServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +216,7 @@
       <workItem from="1678263173403" duration="14074000" />
       <workItem from="1678278400252" duration="12629000" />
       <workItem from="1678294573091" duration="3159000" />
-      <workItem from="1678349377112" duration="5814000" />
+      <workItem from="1678349377112" duration="7701000" />
     </task>
     <servers />
   </component>

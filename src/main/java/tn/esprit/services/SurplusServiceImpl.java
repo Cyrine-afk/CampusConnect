@@ -64,14 +64,6 @@ public class SurplusServiceImpl implements ISurplusService {
     //HERE
     @Scheduled(fixedRate = 5000)
     public void controleQttSurplus() {
-        /*for (int i=0; i<surplusRepo.countallsurplus(); i++) {
-
-        }*/
-        //surplusRepo.findAll().forEach(sr -> sr.getDonatedOrNot().compareTo(true));
-
-        /*surplusDonated.forEach(surp -> surp.setQttIngrSurplus(surp.getQttIngrSurplus()   -   transRepo.qttDon(surp.getIdSurplus())));
-        surplusRepo.saveAll(surplusDonated);*/
-        //System.out.println("Donated stock quantity decremented"+surplusDonated.getIdSurplus());
 
         List<SurplusAlim> surp = surplusRepo.findAll();
         for (SurplusAlim s : surp) {
