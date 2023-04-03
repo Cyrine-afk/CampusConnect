@@ -36,7 +36,7 @@ public class StockServiceImpl implements IStockService {
         Date date = new Date(System.currentTimeMillis());
         st.setDateAjoutIngr(date);
         st.setFournisseur(fourn);
-        st.setQttSurplus(7);
+        st.setQttSurplus(0);
         //HERE
         mailerService.sendEmail(st.getFournisseur().getEmailFourn(), "Stock Added", "The stock "+st.getNomIngr()+" that you have provided us with on the "+st.getDateAjoutIngr()+" has been successfully added to our stock");
         return stockRepo.save(st);
