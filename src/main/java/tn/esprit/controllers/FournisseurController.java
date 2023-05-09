@@ -28,6 +28,8 @@ public class FournisseurController {
         return  fournService.ajouterFournisseur(r);
     }
 
+
+    @CrossOrigin(origins = "http://localhost:8000")
     @GetMapping("/listFournisseur")
     @ResponseBody
     public List<Fournisseur> listFournisseurs(){

@@ -62,7 +62,7 @@ public class SurplusServiceImpl implements ISurplusService {
     }
 
     //HERE
-    @Scheduled(fixedRate = 5000)
+    /*@Scheduled(fixedRate = 5000)
     public void controleQttSurplus() {
 
         List<SurplusAlim> surp = surplusRepo.findAll();
@@ -75,5 +75,5 @@ public class SurplusServiceImpl implements ISurplusService {
         }
 
 
-    }
+    }*/
 }
