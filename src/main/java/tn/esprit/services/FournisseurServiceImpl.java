@@ -53,9 +53,10 @@ public class FournisseurServiceImpl implements IFournisseurService {
     }
 
     @Override
-    public Fournisseur getFournisseurById(Integer idFourn) {
+    public ResponseEntity<Fournisseur> getFournisseurById(Integer idFourn) {
 
-        return fournisseurRepo.getById(idFourn);
+        //return fournisseurRepo.findById(idFourn).get();
+        return ResponseEntity.ok(fournisseurRepo.findById(idFourn).get());
     }
 
     public ResponseEntity<?> NameFiltre (String filter) {

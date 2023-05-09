@@ -1,5 +1,6 @@
 package tn.esprit.Interfaces;
 
+import org.springframework.http.ResponseEntity;
 import tn.esprit.entities.Fournisseur;
 
 import java.util.List;
@@ -15,5 +16,5 @@ public interface IFournisseurService {
 
     void updateFournisseur(Fournisseur fournisseur, Integer idFourn);
 
-    Fournisseur getFournisseurById(Integer idFourn);
+    ResponseEntity<Fournisseur> getFournisseurById(Integer idFourn);
 }

@@ -50,10 +50,13 @@ public class FournisseurController {
         fournService.updateFournisseur(r,idFourn);
     }
 
-    @GetMapping("/getFournisseur/{idFourn}")
+    @GetMapping("/getFournisseurSingle/{idFourn}")
     @ResponseBody
-    public Fournisseur getFournisseurByiD(@PathVariable("idFourn") Integer idFourn){
+    /*public Fournisseur getFournisseurByiD(@PathVariable("idFourn") Integer idFourn){
 
+        return fournService.getFournisseurById(idFourn);
+    }*/
+    public ResponseEntity<Fournisseur> getFournisseurById(@PathVariable("idFourn") Integer idFourn) {
         return fournService.getFournisseurById(idFourn);
     }
 
