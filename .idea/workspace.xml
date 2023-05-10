@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00fdff28-4625-4ff6-bc8b-6af4ec83db1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a3b607f0-fd01-4732-8863-5dfdafc5da98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a3b607f0-fd01-4732-8863-5dfdafc5da98.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/Interfaces/IFournisseurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/Interfaces/IFournisseurService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/FournisseurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/FournisseurController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/FournisseurServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/FournisseurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/FournisseurController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/FournisseurServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/services/FournisseurServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NGOController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/NGOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/NGOServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/NGOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/controllers/NGOController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/services/NGOServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tn/esprit/services/NGOServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60fb9810-221c-402c-a204-83763abb1ba4" name="Changes" comment="" />
+      <changelist id="00fdff28-4625-4ff6-bc8b-6af4ec83db1d" name="Changes" comment="" />
       <created>1664618009524</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -214,6 +215,7 @@
       <workItem from="1678294573091" duration="3159000" />
       <workItem from="1678349377112" duration="14332000" />
       <workItem from="1680124645519" duration="189000" />
+      <workItem from="1683689510671" duration="9255000" />
     </task>
     <servers />
   </component>

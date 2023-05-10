@@ -17,9 +17,12 @@ import java.util.List;
 @Slf4j
 public class NGOServiceImpl implements INGOService {
     NGORepositoy ngoRepo;
+    MailerService mailerService;
 
     @Override
     public NGO ajouterNgo(NGO ng) {
+        mailerService.sendEmail(ng.getEmailNGO(), "Welcome to CampusConnect!", "Dear "+ng.getNomNGO()+"Team, \nWe would like to inform you that you have been successfully added to your NGO database ");
+
         return ngoRepo.save(ng);
 
     }

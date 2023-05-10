@@ -26,6 +26,7 @@ public class NGOController {
 
     }
 
+    @CrossOrigin(origins = "http://localhost:8000")
     @GetMapping("/listNGO")
     @ResponseBody
     public List<NGO> listNGOs(){
